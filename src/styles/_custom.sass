@@ -10,10 +10,126 @@
     top: 51%
     right: 30%
 
-
 @keyframes float1
   0%
     transform: translateY(20px)
 
   100%
     transform: translateY(0px)
+
+.ColorImg
+  z-index: 2
+
+//-----------------
+
+.conTabla
+  overflow-x: auto
+
+table
+  min-width: 700px
+
+  td
+    border-color: #cecbcb !important
+
+.tabla-d
+
+  table
+
+  th
+    border-color: $color-acento-contenido
+    font-weight: $base-bold-font-weight
+    text-align: center
+    background-color: $color-acento-contenido
+    color: black
+
+  tr:nth-child(even)
+    background-color: #F6F6F6
+
+//-----------------
+
+.TemaColor01
+  background-color: $Color-tema-01 !important
+
+.TemaColor02
+  background-color: $Color-tema-02 !important
+
+.TemaColor03
+  background-color: $Color-tema-03 !important
+
+.TemaColor04
+  background-color: $Color-tema-04 !important
+
+.TemaColor05
+  background-color: $Color-tema-05 !important
+
+.TemaColorA
+  background-color: $color-primario !important
+  border-color: $color-primario !important
+
+.TemaColorB
+  background-color: $color-secundario !important
+  border-color: $color-secundario !important
+
+.TemaColorZ
+  background-color: #e8e8e8
+
+.TemaColorX
+  background-color: lighten($color-acento-botones, 20%)
+
+//----------
+
+.tableEx
+  min-width: 1600px !important
+
+.tableEx2
+  min-width: 850px !important
+
+//----------
+
+.EleUNO
+  width: 10%
+  position: relative
+
+  &:after
+    content: ''
+    display: block
+    position: absolute
+    right: 0
+    top: 50%
+    width: 50%
+    height: 100%
+    transform: translate(5px,-50%)
+    background-color: lighten($color-acento-botones, 20%)
+    border-radius: 8px 0 0 8px
+
+  img
+    z-index: 1
+
+.EleDOS
+  width: 90%
+  background-color: lighten($color-acento-botones, 20%)
+  border-radius: 0 8px 8px 0
+
+//----------
+
+.ListUlt
+  ol
+    counter-reset: item
+  li
+    display: block
+  li:before
+    content: counters(item, ".") " "
+    counter-increment: item
+
+//------------
+
+.W90auto
+  width: 90%
+  margin: 0 auto
+
+@media screen and (max-width: 768px)
+  .W90auto
+    width: 100%
+
+.cWhite
+  color: lighten($color-primario, 10%)
