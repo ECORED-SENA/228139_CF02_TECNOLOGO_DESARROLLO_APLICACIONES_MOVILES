@@ -5,16 +5,16 @@ export default {
       'En este componente formativo se abordan el análisis de requisitos (priorización, descomposición funcional, matriz de trazabilidad) y estándares, y/o guías existentes para la especificación formal de los mismos dependiendo del tipo de marco de trabajo usado (tradición o ágil).',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    // imagenesDecorativasBanner: [
+    //   {
+    //     clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+    //   },
+    //   {
+    //     clases: ['banner-principal-decorativo-2'],
+    //     imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+    //   },
+    // ],
   },
   menuPrincipal: {
     menu: [
@@ -151,31 +151,106 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Especificación de requisitos',
+      referencia:
+        'UMNG. (2019). Elementos de la norma IEEE 830. [Archivo de Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=LjBOTZdd_iE&feature=youtu.be',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Especificación de requisitos',
+      referencia:
+        'IEEE Xplore.(2009). 830-1998 - IEEE Recommended Practice for Software Requirements Specifications',
+      tipo: 'Página web',
+      link: 'https://ieeexplore.ieee.org/document/720574',
+    },
+    {
+      tema: '2.1 Estándar IEEE 830',
+      referencia:
+        'Torres, M., Villegas, J. & Martínez, J. (2010). Especificación de Requerimientos de Software.',
+      tipo: 'PDF',
+      link: 'https://www.alemana.cl/aac/cur/pdf/SRS+SIA.pdf',
+    },
+    {
+      tema: '2.1 Estándar IEEE 83',
+      referencia:
+        'Ulloa, M., Ulloa, R. & Lucero, J. (s.f.) Sistema de estacionamiento tarifado. Especificación de Requerimientos de Software SRS',
+      tipo: 'Documento',
+      link:
+        'https://es.slideshare.net/JuAnJoShL/srs-ejemplo-sistema-tarifado-de-transito',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Estándar',
+      significado:
+        'referencia, patrón o modelo que es utilizado a nivel general en un determinado ámbito.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Marcos de trabajo ágiles',
+      significado:
+        'conjunto de estándares, metodologías, técnicas, frameworks o guías que rigen un proceso de desarrollo de software basadas en principios y/o valores ágiles como, por ejemplo: Scrum, Lean Software, XP, TDD, entre otros.',
+    },
+    {
+      termino: 'Marcos de trabajo tradicionales',
+      significado:
+        'conjunto de estándares, metodologías, técnicas, frameworks o guías que rigen un proceso de desarrollo de software basadas en el ciclo de vida tradicional del software como, por ejemplo: RUP, CMMI, ISO 9001, Microsoft Solution Framework, entre otros. ',
+    },
+    {
+      termino: 'Metodología',
+      significado:
+        'síntesis de un conjunto de técnicas, métodos y procedimientos que se deben seguir durante el desarrollo de un proyecto.',
+    },
+    {
+      termino: 'Pruebas unitarias',
+      significado:
+        'forma de comprobar el correcto funcionamiento de una unidad de código.',
+    },
+    {
+      termino: 'Pruebas de integración',
+      significado:
+        'prueba que se ejecuta una vez se aprueban las pruebas unitarias y lo que busca es verificar que el conjunto de fragmentos de código funciona junto de forma correcta. Es una prueba de conjunto.',
+    },
+    {
+      termino: 'Técnica',
+      significado:
+        'manera en la que un conjunto de procedimientos es aplicado en una tarea específica, con base en un conocimiento para obtener un resultado específico.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        '830-1998 - IEEE Recommended Practice for Software Requirements Specifications. (1998). IEEE Standard | IEEE Xplore.',
+      link: 'https://ieeexplore.ieee.org/document/720574',
+    },
+    {
+      referencia:
+        'Pantaleo, L., y Rinaudo. (2018). Ingeniería de software. Alfaomega.',
+      link: '',
+    },
+    {
+      referencia:
+        'Penzenstadler, B. (s. f.). Requirements engineering. CSU Long Beach.',
+      link: 'https://bit.ly/3rtBKXN ',
+    },
+    {
+      referencia:
+        'Porfirio, C. (2021). Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades.',
+      link: 'https://bit.ly/3cvumqz',
+    },
+    {
+      referencia:
+        'Rivadeneira, M., S. G. (2014). Metodologías ágiles enfocadas al modelado de requerimientos. Informes Científicos Técnicos - UNPA, 5(1), 1-29.',
+      link: 'https://doi.org/10.22305/ict-unpa.v5i1.66',
+    },
+    {
+      referencia:
+        'Scrum Certification, Agile Certification | Scrum, Agile Training. (n.d.). ScrumStudy.',
+      link: 'https://www.scrumstudy.com',
+    },
+    {
+      referencia:
+        'Sommerville I. (2011). Ingeniería del software. Addison-Wesley.',
       link: '',
     },
   ],
@@ -200,10 +275,21 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Jonathan Guerrero Astaiza',
+          cargo: 'Expertos temáticos',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Zulema Yidney León Escobar',
+          cargo: 'Expertos temáticos',
+          centro:
+            'Centro de teleinformática y producción industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de gestión industrial - Regional Bogota',
         },
       ],
     },
