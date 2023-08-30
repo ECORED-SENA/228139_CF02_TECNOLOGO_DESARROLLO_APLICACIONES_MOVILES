@@ -11,11 +11,11 @@
     figure.mb-5
       img(src="@/assets/curso/intro/img01.png", alt="Introducción")
     
-    p.mb-5 En este componente formativo se estudiarán los principios básicos sobre los que se fundamenta el proceso de análisis de requisitos desde marcos de desarrollo de software tradicional y ágiles. También, introduce a diferentes formas (planillas y estándares) para realizar el proceso de documentación de requisitos. El siguiente video expone, de forma genérica lo que se desarrollará de esta temática.
-    figure
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. 
+    p.mb-5 En este componente formativo se estudiarán los principios básicos sobre los que se fundamenta el proceso de análisis de requisitos desde marcos de desarrollo de #[em software] tradicional y ágiles. También, introduce a diferentes formas (planillas y estándares) para realizar el proceso de documentación de requisitos. El siguiente video expone, de forma genérica lo que se desarrollará de esta temática.
+    //- figure
+    //-   .video
+    //-     iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    //-   figcaption Video. 
 </template>
 
 <script>

@@ -10,7 +10,7 @@
       .col-12.col-md-9.mb-4.mb-md-0
         .cajon.color-secundario.p-4.mb-4
           p El proceso de análisis de requisitos permite, principalmente, el estudio de las necesidades de los usuarios para definir los requisitos del sistema por medio de la producción de un documento de especificación donde se describe lo que el sistema debe hacer, pero no el cómo. Así es como este proceso, además de involucrar un proceso de análisis, también requiere de la síntesis de la información existente.
-        p A continuación, se describen algunas técnicas que pueden ser utilizadas para entender y ordenar los requisitos identificados para su posterior redacción en un artefacto formal dependiendo del marco de desarrollo de #[em software] utilizado.
+        p A continuación, se describen algunas técnicas que pueden ser utilizadas para entender y ordenar los requisitos identificados para su posterior redacción en un artefacto formal, dependiendo del marco de desarrollo de #[em software] utilizado.
       .col-4.col-md-3
         figure
           img(src="@/assets/curso/tema1/img01.png", alt="proceso de análisis de requisitos")
@@ -35,14 +35,16 @@
 
     .d-flex.mb-4
       .EleUNO.d-flex.align-items-center.py-4
-        img.z-index-1(src="@/assets/curso/tema1/img03.svg", alt="item")
-      .EleDOS.p-4.d-flex.align-items-center
+        img.z-index-1(src="@/assets/curso/tema1/img03.svg", alt="item").d-lg-block.d-none
+      .EleDOS.p-4.d-lg-flex.align-items-center
+        img.z-index-1(src="@/assets/curso/tema1/img03.svg", alt="item" style="width: 100px").d-lg-none.d-block.m-auto.mb-3
         p Esta técnica tiene la ventaja de que solo puede existir un número 1, lo cual evita muchos problemas por parte de los interesados o responsables del negocio que quieren que todos los requerimientos tengan prioridad 1; adicionalmente, aporta claridad y evita confusiones. Cada elemento se prioriza con relación al resto de elementos, lo que simplifica el proceso.
     
     .d-flex.mb-4
       .EleUNO.d-flex.align-items-center.py-4
-        img.z-index-1(src="@/assets/curso/tema1/img04.svg", alt="item")
-      .EleDOS.p-4.d-flex.align-items-center
+        img.z-index-1(src="@/assets/curso/tema1/img04.svg", alt="item").d-lg-block.d-none
+      .EleDOS.p-4.d-lg-flex.align-items-center
+        img.z-index-1(src="@/assets/curso/tema1/img04.svg", alt="item" style="width: 100px").d-lg-none.d-block.m-auto.mb-3
         p Para usar adecuadamente esta técnica, se requiere de un profundo conocimiento de todos los requerimientos definidos y si bien el proceso parece simple, se requiere de un gran esfuerzo por parte del equipo para situar a cada requerimiento en la posición correcta.
 
     h3 Técnica de puntos de historia y valor del negocio
@@ -51,20 +53,23 @@
 
     .d-flex.mb-4
       .EleUNO.d-flex.align-items-center.py-4
-        img.z-index-1(src="@/assets/curso/tema1/img06.svg", alt="item")
-      .EleDOS.p-4.d-flex.align-items-center
+        img.z-index-1(src="@/assets/curso/tema1/img06.svg", alt="item").d-lg-block.d-none
+      .EleDOS.p-4.d-lg-flex.align-items-center
+        img.z-index-1(src="@/assets/curso/tema1/img06.svg", alt="item" style="width: 100px").d-lg-none.d-block.m-auto.mb-3
         p Usar solo el valor del negocio como elemento de priorización puede generar problemas, ya que el valor asociado por el cliente a un requerimiento puede ser muy superfluo y, además, no considera detalles clave como el esfuerzo que se requiere para su desarrollo; por esta razón, también se usa el valor de puntos de historia, que no es más que otro valor numérico asignado por el equipo de desarrolladores a cada requerimiento, en el que se expresa una estimación de esfuerzo. Cuanto más grande sea el número, implica más esfuerzo requerido con miras a realizar el requerimiento.
     
     .d-flex.mb-5
       .EleUNO.d-flex.align-items-center.py-4
-        img.z-index-1(src="@/assets/curso/tema1/img05.svg", alt="item")
-      .EleDOS.p-4.d-flex.align-items-center
+        img.z-index-1(src="@/assets/curso/tema1/img05.svg", alt="item").d-lg-block.d-none
+      .EleDOS.p-4.d-lg-flex.align-items-center
+        img.z-index-1(src="@/assets/curso/tema1/img05.svg", alt="item" style="width: 100px").d-lg-none.d-block.m-auto.mb-3
         p Para lograr la priorización de los requerimientos, se debe realizar el cálculo del cociente obtenido a partir de los puntos de valor del negocio dividido entre los puntos de historia, quedando entonces una priorización donde estarán en los primeros lugares los requerimientos más sencillos de resolver por los desarrolladores y que tengan mayor interés por parte del cliente. A continuación se da un ejemplo.
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 1
       span Ejemplo de aplicación técnica de puntos de historia y valor del negocio
     .conTabla.mb-3
       table.tabla-d.text-center.mb-3
+        
         tr
           th Requerimientos
           th Valor del negocio
@@ -130,9 +135,10 @@
     p.mb-4 Para determinar la prioridad final de un requerimiento, se utiliza una escala de colores que surge a partir de la multiplicación de los valores de las escalas de urgencia y de valor de negocio según la siguiente tabla:
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2 
-      span Tabla de referencia para la técnica urgente | Nota: Tomado de Porfirio (2021)
+      span Tabla de referencia para la técnica urgente 
     .conTabla.mb-3
       table.mb-3
+        caption Nota: Tomado de Porfirio (2021)
         thead
           tr
             td(rowspan='7').text-center.fw-bold Valor de negocio
@@ -229,7 +235,7 @@
             td 3
             td.TemaColor02 Verde
     
-    p.mb-4 Al realizar la multiplicación de los valores de negocio y el valor de la urgencia, se puede establecer en qué sector se encuentra cada requerimiento. Ahora bien, tomando en cuenta los valores del ejemplo de la tabla anterior, se puede concluir que el primer requerimiento a abordar sería el R03 que está en el sector de color rojo, luego el requerimiento R05, que está en el sector de color naranja, y así sucesivamente.
+    p.mb-4 Al realizar la multiplicación de los valores de negocio y el valor de la urgencia, se puede establecer en qué sector se encuentra cada requerimiento. Ahora bien, tomando en cuenta los valores del ejemplo de la tabla anterior, se puede concluir que el primer requerimiento a abordar sería el R03, que está en el sector de color rojo. Luego el requerimiento R05, que está en el sector de color naranja, y así sucesivamente.
 
     h3 Técnica MoSCoW
 
@@ -417,7 +423,7 @@
               |  texto explicativo del requerimiento.
             p
               strong Tipo:
-              |  categor&iacute;a del requisito (requerimiento de negocio, requerimiento de los interesados, funcionales y no funcionales, requerimientos del proyecto, requerimiento de calidad)
+              |  categor&iacute;a del requisito (requerimiento de negocio, requerimiento de los interesados, funcionales y no funcionales, requerimientos del proyecto, requerimiento de calidad).
           
       .py-3.py-md-4(titulo="Estado")
         .row.justify-content-center
@@ -447,8 +453,8 @@
 
       .py-3.py-md-4(titulo="Objetivo")
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 1 
-          span Contenido base matriz correlación.
+          h5 Figura 1. 
+          span Contenido base matriz correlación
         .row.justify-content-center
           .col-8.col-md-3.mb-4.mb-md-0.TemaColor01.rounded.d-flex.align-items-center
             figure
@@ -474,10 +480,10 @@
       table.tabla-d.tableEx.text-center.mb-3
         thead
           tr
-            th(colspan='4') IDENTIFICACI&Oacute;N
-            th(colspan='4').TemaColorA ESTADO
-            th(colspan='3') CARACTER&Iacute;STICAS
-            th(colspan='3').TemaColorA OBJETIVO
+            th(colspan='4') Identificación
+            th(colspan='4').TemaColorA Estado
+            th(colspan='3') Características
+            th(colspan='3').TemaColorA Objetivo
         tbody
           tr
             td Id
@@ -579,8 +585,8 @@
 
     figure
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 2
-        span Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos (fragmento).
+        h5 Figura 2.
+        span Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos (fragmento)
       img(src='@/assets/curso/tema1/img18.svg', alt='Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos')
       
 </template>

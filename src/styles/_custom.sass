@@ -122,7 +122,8 @@ table
     counter-increment: item
 
 //------------
-
+.tarjeta--morada
+  background-color: #e3edf8
 .W90auto
   width: 90%
   margin: 0 auto
@@ -133,3 +134,47 @@ table
 
 .cWhite
   color: lighten($color-primario, 10%)
+.tarjeta-numerada
+  border: solid 2px
+  border-radius: 20px
+  position: relative
+  margin-left: 30px
+  &__numero
+    border-radius: 60px
+    width: 60px
+    height: 60px
+    display: inline-block
+    position: absolute
+    left: 0
+    top: 25px
+    transform: translateX(-50%)
+    div
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+
+  &.color-primario
+    border-color: $color-primario
+    .tarjeta-numerada__numero
+      background-color: $color-primario
+      div
+        color: textColor($color-primario)
+  &.color-secundario
+    border-color: $color-secundario
+    .tarjeta-numerada__numero
+      background-color: $color-secundario
+      div
+        color: textColor($color-secundario)
+  &.color-acento-contenido
+    border-color: $color-acento-contenido
+    .tarjeta-numerada__numero
+      background-color: $color-acento-contenido
+      div
+        color: textColor($color-acento-contenido)
+  &.color-acento-botones
+    border-color: $color-acento-botones
+    .tarjeta-numerada__numero
+      background-color: $color-acento-botones
+      div
+        color: textColor($color-acento-botones)

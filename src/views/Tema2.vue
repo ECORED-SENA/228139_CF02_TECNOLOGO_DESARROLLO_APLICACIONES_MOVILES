@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 2
       h1 Especificación de requisitos
-      p.mb-4 En esta sección se describen algunos estándares y/o técnicas que pueden ser usadas por las organizaciones para describir formalmente cada uno de los requisitos del sistema.
+    p.mb-4 En esta sección se describen algunos estándares y/o técnicas que pueden ser usadas por las organizaciones para describir formalmente cada uno de los requisitos del sistema.
     
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h4 2.1 Estándar IEEE 830
@@ -31,6 +31,9 @@
     
     .row.justify-content-center.mb-5
       .col-7.col-md-5.TemaColorZ.p-4.ListUlt
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Tabla 6. 
+          span Estructura base de un documento SRS
         ol.mb-3
           li.fw-bold Introducción
             ol
@@ -56,17 +59,15 @@
           br
           li.fw-bold Apéndices
     
-        figure
-          figcaption Tabla 6 - Estructura base de un documento SRS.
     
-    .cajon.color-primario.p-4.mb-4
-      p Se sugiere revisar algunos ejemplos de proyectos, que se presentan sobre el diligenciamiento del formato SRS, los cuales se encuentran en el material complementario
+    .cajon.color-primario.p-4.mb-4(style="background-color: #d4f8f8")
+      p Se sugiere revisar algunos ejemplos de proyectos, que se presentan sobre el diligenciamiento del formato SRS, los cuales se encuentran en el material complementario.
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h4 2.2 Estándar IEEE 29148:2018
 
     p.mb-4 Este estándar reemplaza los estándares IEEE 830, IEE 1233, IEEE 1362, y contiene disposiciones para los procesos y productos relacionados con la ingeniería de requisitos para sistemas, productos y servicios de #[em software] a lo largo del ciclo de vida (Penzenstadler, 2021).
 
-    .bloque-texto-a.p-4.p-md-5.mb-5.W90auto
+    .bloque-texto-a.p-4.p-md-5.mb-5.W90auto.color-secundario
       .row.m-0.align-items-center.justify-content-between
         .col-lg-3.mb-4.mb-lg-0
           figure.mb-4
@@ -74,7 +75,7 @@
           .h4.mb-0 Estándar IEEE 29148:2018
         .col-lg-9
           .bloque-texto-a__texto.p-4
-            p Además, define la construcción de un buen requisito, proporciona atributos y características de los requisitos, y analiza la aplicación iterativa y recursiva del proceso de requisitos a lo largo del ciclo de vida. También proporciona orientación adicional en la aplicación de procesos de ingeniería y gestión de requerimientos relacionados con la ingeniería de requisitos al tiempo que  define los elementos de información aplicables a la ingeniería de requisitos y su contenido
+            p Además, define la construcción de un buen requisito, proporciona atributos y características de los requisitos, y analiza la aplicación iterativa y recursiva del proceso de requisitos a lo largo del ciclo de vida. También proporciona orientación adicional en la aplicación de procesos de ingeniería y gestión de requerimientos relacionados con la ingeniería de requisitos al tiempo que  define los elementos de información aplicables a la ingeniería de requisitos y su contenido.
     
     p.mb-4 El estándar IEEE 29148:2018 está estructurado de la siguiente forma:
 
@@ -201,7 +202,7 @@
         .TemaColor01.rounded.d-flex.align-items-center.h-100
           img.w-25.mx-auto.m-4(src="@/assets/curso/tema2/img04.svg", alt="proceso de priorizació")
       .col-lg-7
-        p.mb-0(data-aos='fade-right') El marco de trabajo Scrum está soportado en un proceso de construcción iterativo e incremental evolutivo, en el que se identifican tres roles principales: el equipo de trabajo #[em (team)] conformado por los desarrolladores, diseñadores, personal de calidad y de infraestructura requerido para la construcción del producto de #[em software]; el #[em scrum master] que realizan funciones parecidas a las de un director de proyecto, pero más enfocados en garantizar que el equipo de trabajo tenga todas las herramientas y recursos necesarios para el desarrollo de su trabajo; y, finalmente, el dueño del producto #[em (product owner)] que se convierte en un representante del cliente y quien es el único encargado de la gestión de requisitos del proyecto (ScrumStudy, 2021). En el siguiente video se explica un poco más sobre el Scrum y la especificación de los requisitos
+        p.mb-0(data-aos='fade-right') El marco de trabajo Scrum está soportado en un proceso de construcción iterativo e incremental evolutivo, en el que se identifican tres roles principales: el equipo de trabajo #[em (team)] conformado por los desarrolladores, diseñadores, personal de calidad y de infraestructura requerido para la construcción del producto de #[em software]; el #[em scrum master] que realizan funciones parecidas a las de un director de proyecto, pero más enfocados en garantizar que el equipo de trabajo tenga todas las herramientas y recursos necesarios para el desarrollo de su trabajo; y, finalmente, el dueño del producto #[em (product owner)] que se convierte en un representante del cliente y quien es el único encargado de la gestión de requisitos del proyecto (ScrumStudy, 2021). En el siguiente video se explica un poco más sobre el Scrum y la especificación de los requisitos.
     
     figure.mb-5
       .video
@@ -232,26 +233,26 @@
     
     .cajon--rojo.p-4.mb-5.w-75
       p Scrum, siendo un marco de trabajo ágil, no requiere para su funcionamiento que todas las historias de usuario de la pila de producto estén detalladas, pero sí, por lo menos, las de mayor prioridad para poder iniciar el trabajo con el equipo en sus respectivos sprints (ScrumStudy, 2021).
-    
+    tarjeta
     p.mb-4 Al inicio de cada sprint se realiza el proceso de planeación que involucra principalmente tres tareas:
 
     .row.mb-5.W90auto
-      .col-12
-        .tarjeta-numerada.p-5
+      .col-12.mb-3
+        .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
-            .h4 1
+            .h2.mb-0 1
           p Estimar el valor de esfuerzo requerido para un conjunto de historias de usuario de la pila de producto, trabajo que es realizado únicamente por el equipo de desarrollo.
 
-      .col-12
-        .tarjeta-numerada.p-5
+      .col-12.mb-3
+        .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
-            .h4 2
+            .h2.mb-0 2
           p Selección de las historias de usuario a desarrollar durante al sprint tomando como referencia la prioridad y el valor del esfuerzo asociado a cada historia. Esto genera un artefacto llamado pila del sprint #[em (sprint backlog)] que lista los requerimientos descritos como historias de usuario a ser realizadas y evaluadas en el sprint.
       
-      .col-12
-        .tarjeta-numerada.p-5
+      .col-12.mb-3
+        .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
-            .h4 3
+            .h2.mb-0 3
           p Descomposición de cada historia de usuario en tareas y, de ser necesario, asignar responsables a cada tarea.
 
     p.mb-4 A continuación, se expone una figura en la que se representan los artefactos generados dentro del marco de trabajo Scrum y que permiten la gestión de los requisitos y el evento desde el cual se construye inicialmente.
@@ -259,11 +260,11 @@
     figure.mb-4
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura 3.
-        span Pila de producto vs. pila del #[em Sprint.]
+        span Pila de producto vs. pila del #[em Sprint]
       img(src='@/assets/curso/tema2/img06.svg', alt='Pila de producto vs. pila del Sprint')
     
     #t_2_5.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h4 Kanban y la especificación de requisitos
+      h4 2.5 Kanban y la especificación de requisitos
 
     p.mb-4 Kanban es una metodología para gestionar el trabajo que surge del sistema de producción Toyota Production System (TPS) a finales de la década de 1940, el cual representaba un sistema de producción basado en la demanda de los clientes y no en la producción masiva, lo anterior sentó los fundamentos para los sistemas de producción ajustada que consisten en minimizar los desperdicios sin afectar la producción y en crear más valor a los clientes sin generar más gastos.
 
@@ -285,7 +286,7 @@
         li.d-flex 
           .lista-ol--cuadro__vineta
             span 2
-          | Reducción del desperdicio. Hacer solamente lo justo y necesario, pero hacerlo bien.
+          | Reducción del desperdicio: hacer solamente lo justo y necesario, pero hacerlo bien.
         li.d-flex 
           .lista-ol--cuadro__vineta
             span 3
@@ -339,7 +340,7 @@
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
         h5 Figura.
         span Tablero Kanban
-      img(src='@/assets/curso/tema2/img08.svg', alt='Tablero Kanban')
+      img(src='@/assets/curso/tema2/c1.svg', alt='Tablero Kanban')
 
     p Dependiendo del marco de trabajo, varía la forma en la que se describen cada una de las tareas del tablero Kanban, por ejemplo, dentro de un marco de trabajo como Scrum cada una de las tareas se podría describir en el formato de historias de usuario.    
 

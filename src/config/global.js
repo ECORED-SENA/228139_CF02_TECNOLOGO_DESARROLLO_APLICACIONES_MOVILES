@@ -189,12 +189,12 @@ export default {
     {
       termino: 'Marcos de trabajo ágiles',
       significado:
-        'conjunto de estándares, metodologías, técnicas, frameworks o guías que rigen un proceso de desarrollo de software basadas en principios y/o valores ágiles como, por ejemplo: Scrum, Lean Software, XP, TDD, entre otros.',
+        'conjunto de estándares, metodologías, técnicas, <em>frameworks</em> o guías que rigen un proceso de desarrollo de <em>software</em> basadas en principios y/o valores ágiles como, por ejemplo: Scrum, <em>Lean Software</em>, XP, TDD, entre otros.',
     },
     {
       termino: 'Marcos de trabajo tradicionales',
       significado:
-        'conjunto de estándares, metodologías, técnicas, frameworks o guías que rigen un proceso de desarrollo de software basadas en el ciclo de vida tradicional del software como, por ejemplo: RUP, CMMI, ISO 9001, Microsoft Solution Framework, entre otros. ',
+        'conjunto de estándares, metodologías, técnicas, <em>frameworks</em> o guías que rigen un proceso de desarrollo de <em>software</em> basadas en el ciclo de vida tradicional del software como, por ejemplo: RUP, CMMI, ISO 9001, Microsoft Solution Framework, entre otros. ',
     },
     {
       termino: 'Metodología',
