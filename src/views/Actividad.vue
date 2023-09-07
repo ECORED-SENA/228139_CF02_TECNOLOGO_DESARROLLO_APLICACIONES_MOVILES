@@ -10,7 +10,7 @@
             img(src="@/assets/template/Arrastrar_Soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Análisis y especificación de requisitos
+          h2 Técnicas de análisis de requisitos
         p.mb-4 Afianzar algunos de los conceptos más importantes asociados al proceso de priorización de requisitos.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
