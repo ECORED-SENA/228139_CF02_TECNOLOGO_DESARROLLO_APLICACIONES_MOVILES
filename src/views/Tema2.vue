@@ -338,7 +338,7 @@
 
     figure.mb-4
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura.
+        h5 Figura 4.
         span Tablero Kanban
       img(src='@/assets/curso/tema2/c1.svg', alt='Tablero Kanban')
 
