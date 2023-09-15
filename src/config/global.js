@@ -278,13 +278,13 @@ export default {
           nombre: 'Jonathan Guerrero Astaiza',
           cargo: 'Expertos temáticos',
           centro:
-            'Centro de teleinformática y producción industrial - Regional Cauca',
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Zulema Yidney León Escobar',
           cargo: 'Expertos temáticos',
           centro:
-            'Centro de teleinformática y producción industrial - Regional Cauca',
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',

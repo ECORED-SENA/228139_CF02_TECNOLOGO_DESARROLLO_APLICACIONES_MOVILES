@@ -31,7 +31,7 @@
     
     h3(data-aos="fade-right") Técnica de clasificación de lista
 
-    p.mb-4 Esta técnica de clasificación no requiere ningún tipo de entrenamiento o preparación, ya que es una forma de priorización natural que se usa en la vida cotidiana. Este tipo de priorización simple es una de las más utilizadas y consiste en darle un valor numérico a cada requerimiento iniciando por el número 1 y continuando de forma sucesiva con 2, 3 y hasta el número total de requisitos definidos (Porfirio, 2021).
+    p.mb-4 Esta técnica de clasificación no requiere ningún tipo de entrenamiento o preparación, ya que es una forma de priorización natural que se usa en la vida cotidiana. Este tipo de priorización simple es una de las más utilizadas y consiste en darle un valor numérico a cada requerimiento, iniciando por el número 1 y continuando de forma sucesiva con 2, 3 y hasta el número total de requisitos definidos (Porfirio, 2021).
 
     .d-flex.mb-4
       .EleUNO.d-flex.align-items-center.py-4
@@ -452,9 +452,6 @@
               |  cualquier otro campo de valor para la organizaci&oacute;n.
 
       .py-3.py-md-4(titulo="Objetivo")
-        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-          h5 Figura 1. 
-          span Contenido base matriz correlación
         .row.justify-content-center
           .col-8.col-md-3.mb-4.mb-md-0.TemaColor01.rounded.d-flex.align-items-center
             figure
@@ -585,7 +582,7 @@
 
     figure
       .titulo-sexto.color-acento-contenido(data-aos='fade-right')
-        h5 Figura 2.
+        h5 Figura 1.
         span Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos (fragmento)
       img(src='@/assets/curso/tema1/img18.svg', alt='Ejemplo de descomposición funcional de un sistema de gestión comercialización de productos')
       
