@@ -231,12 +231,14 @@ export default {
     {
       referencia:
         'Penzenstadler, B. (s. f.). Requirements engineering. CSU Long Beach.',
-      link: 'https://bit.ly/3rtBKXN ',
+      link:
+        'https://teachingopensource.org/Requirements_Engineering,_CSU_Long_Beach,_Penzenstadler',
     },
     {
       referencia:
         'Porfirio, C. (2021). Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades.',
-      link: 'https://bit.ly/3cvumqz',
+      link:
+        'https://www.knowmadmood.com/es/blog/tcnicas-de-priorizacin-el-desafo-de-conseguir-un-orden-para-las-funcionalidades',
     },
     {
       referencia:
@@ -289,7 +291,7 @@ export default {
         {
           nombre: 'Alix Cecilia Chinchilla Rueda',
           cargo: 'Diseñadora instruccional',
-          centro: 'Centro de gestión industrial - Regional Bogota',
+          centro: 'Centro de Gestión Industrial - Distrito Capital',
         },
       ],
     },
